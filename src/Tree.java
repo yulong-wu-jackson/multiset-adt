@@ -2,10 +2,13 @@ import java.lang.reflect.Array;
 
 public class Tree {
     private Tree root;
-    private Tree[] subtrees;
-    public Tree(Tree root, Tree[] subtrees){
+    private String[] subtree;
+    public Tree(Tree root, String[] subtree){
         this.root = root;
-        this.subtrees = subtrees;
+        this.subtree = subtree;
+    }
+    public Tree getroot(){
+        return this.root;
 
     }
 }
