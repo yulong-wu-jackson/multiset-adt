@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 public class Tree {
     private Tree root;
     private String[] subtree;
@@ -7,5 +9,6 @@ public class Tree {
     }
     public Tree getroot(){
         return this.root;
+
     }
 }
